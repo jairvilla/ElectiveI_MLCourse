@@ -1,9 +1,17 @@
+#..................................................
+# Script for machine learning
+# Author: Jair Villanueva 
+# Date: 27/07/20
+# Title: Models used in Machine learning algorithms
+#..................................................
+
 
 # Packages required -------------------------------------------------------
 
 pkgs <- c("dplyr", "tidyr", "caret","xtable","data.table", "lubridate", 
           "klaR","randomForest","qwraps2","corrplot", "nnet","DT","rio",
           "tidyverse", "psych", "MASS", "ggplot2", "kernlab", "knitr") 
+
 # Install packages ..................
 sapply(pkgs, require, character.only = T) 
 
