@@ -1,9 +1,3 @@
-....................................................
-# Title:  Classification Models to predict OSA treatment  
-# Goal:   Evaluate the performance of predictive models with a dataset  
-# Date:   July, 2019
-# Author: J Villanueva
-#...................................................
 
 # Packages required -------------------------------------------------------
 
