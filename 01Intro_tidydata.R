@@ -35,7 +35,7 @@ names(breast_cancer)
 glimpse(starwars)
 names(starwars)
 str (starwars)
-?starwars      # help 
+?starwars      pkgs# help 
 
 
 # Data Viz  (ggplot2)....................
@@ -102,7 +102,6 @@ names(restData)
 
 # EXTRAER Nombres de una Ds
 
-
 if (!file.exists("./data")){dir.create("./data")}
 filenames <- "https://archive.ics.uci.edu/ml/machine-learning-databases/lung-cancer/lung-cancer.data"
 download.file(filenames, destfile = "./data/cancerDetection.csv", method = "curl")
@@ -110,3 +109,7 @@ restData <- read.csv("./data/cancerDetection.csv")
 names(restData)
 str(restData)
 summary(restData)
+
+# Summary data 
+library(skimr)
+skim(iris)
